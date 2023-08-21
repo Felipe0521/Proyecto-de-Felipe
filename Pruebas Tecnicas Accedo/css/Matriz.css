@@ -1,0 +1,54 @@
+/* Estilo para la tabla */
+.contenedor{
+     
+        margin: 0;
+        display: flex;
+        justify-content: center;
+            align-items: center;
+}
+.botones{
+
+    display: flex;
+    justify-content: center;
+        align-items: center;
+}
+
+button{
+    gap: 5px;
+    height: 35px;
+    color: white;
+    background-color: rgb(10, 79, 207);
+    border: 3px rgb(244, 245, 240) solid;
+    border-radius: 4dvh;
+    margin-left: 5px;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    cursor: pointer;
+    margin-top: 3rem;
+    
+    
+}
+
+
+td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+
+}
+
+
+td:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+
